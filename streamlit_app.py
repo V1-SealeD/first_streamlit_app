@@ -49,4 +49,4 @@ add_my_fruit = fruit_choice = streamlit.text_input('What fruit would you like to
 streamlit.write('Thanks for adding ', fruit_choice)
 
 # Add new row
-my_cur.execute ("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LISTvalues ('from streamlit')")
+my_cur.execute ("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
